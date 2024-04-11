@@ -61,19 +61,19 @@ def display_grid():
         print('+')
 
         for k in enumerate(grid):
-            print('|         ',end='')
-        print('|')
+            print('*         ',end='')
+        print('*')
 
         #dispay value
         
 
         for j,value in enumerate(row):
-            print('|',str(value).center(8) if value != 0 else ''.center(8),end='')
-        print('|')
+            print('*',str(value).center(8) if value != 0 else ''.center(8),end='')
+        print('*')
 
         for k in enumerate(grid):
-            print('|         ',end='')
-        print('|')
+            print('*         ',end='')
+        print('*')
 
     for k in enumerate(grid):
         print('+---------',end='')
